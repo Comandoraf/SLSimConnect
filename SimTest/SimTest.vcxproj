@@ -72,13 +72,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>F:\Projects\SL\FS_X_SDK_SP1a\Core Utilities Kit\SimConnect SDK\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\Projects\SL\FS_X_SDK_SP1a\Core Utilities Kit\SimConnect SDK\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Rafael2\Desktop\SimTest\FS_X_SDK_SP1a\Core Utilities Kit\SimConnect SDK\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Rafael2\Desktop\SimTest\FS_X_SDK_SP1a\Core Utilities Kit\SimConnect SDK\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>F:\Projects\SL\FS_X_SDK_SP1a\Core Utilities Kit\SimConnect SDK\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\Projects\SL\FS_X_SDK_SP1a\Core Utilities Kit\SimConnect SDK\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -92,11 +92,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>SimConnect.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
