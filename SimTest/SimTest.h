@@ -46,6 +46,7 @@ static enum DATA_DEFINE_ID {
   DEFINITION_5,
   DEFINITION_6,
   DEFINITION_INIT_POS,
+  DEFINITION_8
 };
 
 static enum DATA_REQUEST_ID {
@@ -70,13 +71,11 @@ struct PLANE_NAV {
   double  altitude;
   double  latitude;
   double  longitude;
-  double  vertspeed;
-  double  gspeed;
-  double  heading;
   double  pitch;
   double  bank;
-  double  xvelocity;
-  double  yvelocity;
-  double  zvelocity;
+  double  heading;
+  //double  xvelocity;
+  //double  yvelocity;
+  //double  zvelocity;
 };
 

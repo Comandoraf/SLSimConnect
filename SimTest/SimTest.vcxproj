@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)..\FS_X_SDK_SP1a\Core Utilities Kit\SimConnect SDK\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)..\FS_X_SDK_SP1a\Core Utilities Kit\SimConnect SDK\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\FS_X_SDK_SP1a\Core Utilities Kit\SimConnect SDK\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\FS_X_SDK_SP1a\Core Utilities Kit\SimConnect SDK\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
